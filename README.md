@@ -64,4 +64,22 @@ file!
 
 ## Take 2
 
-First, we'll create a few components to run and load those into the template
+First, we'll create a few components to run and load those into the
+template.
+
+Install `reactbulma` and `css-loader` (latter is a dependency). Add in
+extra details within webpack.config.js so it knows to parse css.
+
+Then play around with bulma css designs and conventions. 
+
+Now, put in place the basics of the router. Install
+`react-router-dom`, create two different links.
+
+After playing around a bit, add in a proper couple of components:
+
+  - FrontPage => hold all posts
+  - Post/:id => hold a particular post
+
+Then reducers, actions, etc.
+
+Got it working as a basic concept! woo
