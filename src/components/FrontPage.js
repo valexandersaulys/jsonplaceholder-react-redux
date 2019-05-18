@@ -70,7 +70,6 @@ class FrontPage extends React.Component {
 FrontPage.propTypes = propTypes;
 FrontPage.defaultProps = defaultProps;
 
-// later to be added via redux
 const mapStateToProps = state => ({
   posts: state.posts
 });
