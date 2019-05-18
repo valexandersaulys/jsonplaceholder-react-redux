@@ -7,3 +7,5 @@ Pipfile.lock
 node_modules/*
 *.db
 *.pyc
+node_modules/*
+package-lock.json

@@ -1,0 +1,30 @@
+{
+  "name": "react-blog",
+  "version": "1.0.0",
+  "description": "A little fake blog to show off what I've learned with my react django redux tutorial, this time applied to [JSON Placeholder](https://jsonplaceholder.typicode.com/) with a little bit of [Bulma React Components](https://kulakowka.github.io/react-bulma/).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./src/index.js --output ./build/main.js",
+    "prod": "webpack --mode production ./src/index.js --output ./build/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
